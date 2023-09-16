@@ -1,10 +1,1963 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>My GitHub Website</title>
-</head>
-<body>
-    <h1>Welcome to My GitHub Website</h1>
-    <p>This is a basic HTML page hosted on GitHub Pages.</p>
-</body>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Sarah Hasan,PhD GIS and Remote Sensing Expert" />
+    <meta
+      name="keywords"
+      content="Sarah Hasan,PhD GIS and Remote Sensing Expert, Sarah Hasan Portfolio, Sarah Hasan Geospatial Analyst"
+    />
+    <meta name="author" content="John Doe" />
+    <title>Sarah Hasan Portfolio</title>
+    <meta
+      name="description"
+      content="Sarah Hasan Portfolio, Javascript Developer,Web FullStack developer,Experience Php developer,Openlayers,Geosever,Postgresql"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200"
+      rel="stylesheet"
+    />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link href="css/aos.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="styles/main.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles/custom.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+    />
+    <link rel="icon" href="assets/logo.6f8f347d.png" type="image/x-icon" />
+  </head>
+
+  <body id="top">
+    <canvas id="c"></canvas>
+    <div class="cur" id="circle">
+      <div class="main-cur"></div>
+      <img class="satelite" src="images/satellite.svg" alt="" />
+    </div>
+
+    <header>
+      <div class="profile-page sidebar-collapse">
+        <nav
+          class="navbar navbar-expand-lg fixed-top navbar-transparent bg-primary"
+          color-on-scroll="400"
+        >
+          <div class="container">
+            <div class="navbar-translate">
+              <a
+                class="navbar-brand"
+                href="https://sarahlsgi.github.io/"
+                rel="tooltip"
+                >MU Portfolio</a
+              >
+              <button
+                class="navbar-toggler navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navigation"
+                aria-controls="navigation"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-bar bar1"></span
+                ><span class="navbar-toggler-bar bar2"></span
+                ><span class="navbar-toggler-bar bar3"></span>
+              </button>
+            </div>
+            <div
+              class="collapse navbar-collapse justify-content-end"
+              id="navigation"
+            >
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link smooth-scroll" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link smooth-scroll" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link smooth-scroll" href="#skill">Skills</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link smooth-scroll" href="#project">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link smooth-scroll" href="#experience"
+                    >Experience</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link smooth-scroll" href="#certifcations"
+                    >Certifcations</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link smooth-scroll" href="#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <div class="page-content">
+      <div class="profile-page" id="home">
+        <div class="wrapper">
+          <div class="page-header page-header-small" filter-color="green">
+            <div
+              class="page-header-image"
+              data-parallax="true"
+              style="background-image: url('images/cc-bg-1.jpg')"
+            ></div>
+            <div class="container">
+              <div class="content-center">
+                <div class="cc-profile-image">
+                  <a href="#"><img src="images/img/umair.jpg" alt="Image" /></a>
+                </div>
+                <div class="h2 title">Muhammad Umair</div>
+                <p class="category text-white">Web GIS Developer</p>
+                <a
+                  class="btn btn-primary smooth-scroll mr-2"
+                  href="#contact"
+                  data-aos="zoom-in"
+                  data-aos-anchor="data-aos-anchor"
+                  >Hire Me</a
+                ><a
+                  class="btn btn-primary"
+                  href="CV-Muhammad-Umair.pdf"
+                  download
+                  data-aos="zoom-in"
+                  data-aos-anchor="data-aos-anchor"
+                  >Download CV</a
+                >
+              </div>
+            </div>
+            <div class="section">
+              <div class="container">
+                <div class="button-container">
+                  <a
+                    class="btn btn-default btn-round btn-lg btn-icon"
+                    href="https://www.linkedin.com/in/sarah-phd-891aa738/"
+                    rel="tooltip"
+                    title="linkedin"
+                    ><i class="fa fa-linkedin"></i
+                  ></a>
+                  <a
+                    class="btn btn-default btn-round btn-lg btn-icon"
+                    href="https://github.com/sarahlsgi"
+                    rel="tooltip"
+                    title="Github"
+                    ><i class="fa fa-github"></i
+                  ></a>
+                  <a
+                    class="btn btn-default btn-round btn-lg btn-icon"
+                    href="https://www.upwork.com/freelancers/sarahh80"
+                    rel="tooltip"
+                    title="Freelancer"
+                    ><i class="fa fa-laptop"></i
+                  ></a>
+                  <a
+                    class="btn btn-default btn-round btn-lg btn-icon"
+                    href="mailto: sarahhasan_90@hotmail.com"
+                    rel="tooltip"
+                    title="Email"
+                    ><i class="fa fa-envelope"></i
+                  ></a>
+                  <a
+                    class="btn btn-default btn-round btn-lg btn-icon"
+                    href="tel: +33314912920"
+                    rel="tooltip"
+                    title="Phone"
+                    ><i class="fa fa-phone"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section" id="about">
+        <div class="container">
+          <div class="card" data-aos="fade-up" data-aos-offset="10">
+            <div class="row">
+              <div class="col-lg-6 col-md-12">
+                <div class="card-body text-justify">
+                  <div class="h4 mt-0 title">About</div>
+                  <p>
+                    I have spent majority of my life working in Islamabad,
+                    beautiful capital city of Pakistan, an open-minded and
+                    flexible person with a real passion about geoinformatics,
+                    always keen to groom & up my skills by learning new things.
+                  </p>
+                  <li class="two">
+                    Decade long experience of Web based develpoment with focus
+                    on building complex scalable GIS Solutions.
+                  </li>
+                  <li class="two">
+                    7 years of freelance development experience with 75+
+                    projects, 100% rating & Top Rated Plus badge for a
+                    multi-lingual & multi-tech client base
+                  </li>
+                  <li class="two">
+                    Passionate to do a Phd in the field of Geoinformatics / GIS
+                  </li>
+                  <li class="two">
+                    Experienced in frameworks like Mern-Stack, Full-stack,
+                    ReactJs, React-Native
+                  </li>
+                  <li class="two">
+                    Highly competent in major mapping libraries including
+                    Openlayers, Leaflet, Mapbox, ArcGIS etc.
+                  </li>
+                  <li class="two">
+                    Proficient in major programming languages including Python,
+                    Jscript, PHP, .Net etc.
+                  </li>
+                  <li class="two">
+                    Strong grip over majority of GIS softwares including QGIS,
+                    Arcmap, Global Mapper, GDAL, OGR, bash etc.
+                  </li>
+                  <li class="two">
+                    Proven experience with renowned RDBMS including Postgresql +
+                    PostGIS, MySQL, MongoDB etc.
+                  </li>
+                  <li class="two">
+                    Expert in building front-ends using frameworks (full-stack
+                    or Reactjs)
+                  </li>
+                  <li class="two">
+                    Fluent in handling multiple AWS services including Ec2,
+                    Route53, S3 etc.
+                  </li>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <div class="card-body">
+                  <div class="h4 mt-0 title">Basic Information</div>
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <strong class="text-uppercase">Experience:</strong>
+                    </div>
+                    <div class="col-sm-8">14 years</div>
+                  </div>
+                  <div class="row mt-3">
+                    <div class="col-sm-4">
+                      <strong class="text-uppercase">Email:</strong>
+                    </div>
+                    <div class="col-sm-8">sarahhasan_90@hotmail.com</div>
+                  </div>
+                  <div class="row mt-3">
+                    <div class="col-sm-4">
+                      <strong class="text-uppercase">Phone:</strong>
+                    </div>
+                    <div class="col-sm-8">+92-321-444-0234</div>
+                  </div>
+                  <div class="row mt-3">
+                    <div class="col-sm-4">
+                      <strong class="text-uppercase">Address:</strong>
+                    </div>
+                    <div class="col-sm-8">Lahore, Pakistan-54000</div>
+                  </div>
+                  <div class="row mt-3">
+                    <div class="col-sm-4">
+                      <strong class="text-uppercase">Language:</strong>
+                    </div>
+                    <div class="col-sm-8">English , Urdu , Punjabi</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section" id="skill">
+        <div class="container">
+          <div class="h4 text-center mb-4 title">My Tech Stack</div>
+          <div
+            class="card"
+            data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom"
+          >
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="progress-container progress-primary">
+                    <span class="progress-badge">JavaScript</span>
+                    <div class="progress">
+                      <div
+                        class="progress-bar progress-bar-primary"
+                        data-aos="progress-full"
+                        data-aos-offset="10"
+                        data-aos-duration="2000"
+                        role="progressbar"
+                        aria-valuenow="60"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="width: 100%"
+                      ></div>
+                      <span class="progress-value">100%</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="progress-container progress-primary">
+                    <span class="progress-badge">CSS | BOOTSTRAP </span>
+                    <div class="progress">
+                      <div
+                        class="progress-bar progress-bar-primary"
+                        data-aos="progress-full"
+                        data-aos-offset="10"
+                        data-aos-duration="2000"
+                        role="progressbar"
+                        aria-valuenow="60"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="width: 95%"
+                      ></div>
+                      <span class="progress-value">95%</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="progress-container progress-primary">
+                    <span class="progress-badge">Openlayers / Leaflet</span>
+                    <div class="progress">
+                      <div
+                        class="progress-bar progress-bar-primary"
+                        data-aos="progress-full"
+                        data-aos-offset="10"
+                        data-aos-duration="2000"
+                        role="progressbar"
+                        aria-valuenow="60"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="width: 100%"
+                      ></div>
+                      <span class="progress-value">100%</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="progress-container progress-primary">
+                    <span class="progress-badge">Openlayers-Ext </span>
+                    <div class="progress">
+                      <div
+                        class="progress-bar progress-bar-primary"
+                        data-aos="progress-full"
+                        data-aos-offset="10"
+                        data-aos-duration="2000"
+                        role="progressbar"
+                        aria-valuenow="60"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="width: 95%"
+                      ></div>
+                      <span class="progress-value">100%</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="progress-container progress-primary">
+                    <span class="progress-badge">Postgresql</span>
+                    <div class="progress">
+                      <div
+                        class="progress-bar progress-bar-primary"
+                        data-aos="progress-full"
+                        data-aos-offset="10"
+                        data-aos-duration="2000"
+                        role="progressbar"
+                        aria-valuenow="60"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="width: 95%"
+                      ></div>
+                      <span class="progress-value">95%</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="progress-container progress-primary">
+                    <span class="progress-badge">Git</span>
+                    <div class="progress">
+                      <div
+                        class="progress-bar progress-bar-primary"
+                        data-aos="progress-full"
+                        data-aos-offset="10"
+                        data-aos-duration="2000"
+                        role="progressbar"
+                        aria-valuenow="60"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="width: 95%"
+                      ></div>
+                      <span class="progress-value">95%</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="progress-container progress-primary">
+                    <span class="progress-badge">Python</span>
+                    <div class="progress">
+                      <div
+                        class="progress-bar progress-bar-primary"
+                        data-aos="progress-full"
+                        data-aos-offset="10"
+                        data-aos-duration="2000"
+                        role="progressbar"
+                        aria-valuenow="60"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="width: 95%"
+                      ></div>
+                      <span class="progress-value">95%</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="progress-container progress-primary">
+                    <span class="progress-badge">Github Repos</span>
+                    <div class="progress">
+                      <div
+                        class="progress-bar progress-bar-primary"
+                        data-aos="progress-full"
+                        data-aos-offset="10"
+                        data-aos-duration="2000"
+                        role="progressbar"
+                        aria-valuenow="60"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="width: 95%"
+                      ></div>
+                      <span class="progress-value">95%</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid_items">
+                <div class="grid_item">
+                  <img src="images/Skills/jscript.png" class="skills__img" />
+                </div>
+                <div class="grid_item">
+                  <img src="images/Skills/reactjs.png" class="skills__img" />
+                </div>
+                <div class="grid_item">
+                  <img
+                    src="images/Skills/visual-studio-code.png"
+                    class="skills__img"
+                  />
+                </div>
+                <div class="grid_item">
+                  <img
+                    src="images/Skills/docker-logo.png"
+                    class="skills__img"
+                  />
+                </div>
+                <div class="grid_item">
+                  <img
+                    src="images/Skills/Python-logo-notext.svg.08e79ad9.png"
+                    class="skills__img"
+                  />
+                </div>
+                <div class="grid_item">
+                  <img src="images/Skills/mern.png" class="skills__img" />
+                </div>
+                <div class="grid_item">
+                  <img src="images/Skills/csharp.png" class="skills__img" />
+                </div>
+                <div class="grid_item">
+                  <img src="images/Skills/php.png" class="skills__img" />
+                </div>
+                <div class="grid_item">
+                  <img src="images/Skills/jquery.png" class="skills__img" />
+                </div>
+                <div class="grid_item">
+                  <img src="images/Skills/css.png" class="skills__img" />
+                </div>
+                <div class="grid_item">
+                  <img src="images/Skills/openlayers.png" class="skills__img" />
+                </div>
+                <div class="grid_item">
+                  <img src="images/Skills/leaflet.png" class="skills__img" />
+                </div>
+                <div class="grid_item">
+                  <img src="images/Skills/mapbox.png" class="skills__img" />
+                </div>
+                <div class="grid_item">
+                  <img src="images/Skills/geoserver.png" class="skills__img" />
+                </div>
+                <div class="grid_item">
+                  <img src="images/Skills/mysql.png" class="skills__img" />
+                </div>
+                <div class="grid_item">
+                  <img
+                    src="images/Skills/pg.a537d78a.png"
+                    class="skills__img"
+                  />
+                </div>
+                <div class="grid_item">
+                  <img src="images/Skills/postgis.png" class="skills__img" />
+                </div>
+                <div class="grid_item">
+                  <img
+                    src="images/Skills/logoQgis.34b7692d.png"
+                    class="skills__img"
+                  />
+                </div>
+                <div class="grid_item">
+                  <img src="images/Skills/gdal.png" class="skills__img" />
+                </div>
+                <div class="grid_item">
+                  <img src="images/Skills/xampp.png" class="skills__img" />
+                </div>
+                <div class="grid_item">
+                  <img src="images/Skills/aws.png" class="skills__img" />
+                </div>
+                <div class="grid_item">
+                  <img src="images/Skills/GitHub.png" class="skills__img" />
+                </div>
+                <div class="grid_item">
+                  <img src="images/Skills/windows.png" class="skills__img" />
+                </div>
+                <div class="grid_item">
+                  <img src="images/Skills/linux.png" class="skills__img" />
+                </div>
+                <div class="grid_item">
+                  <img
+                    src="images/Skills/arcgis-online-banner-icon_0.d7536c25.png"
+                    class="skills__img"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section" id="project">
+        <div class="container">
+          <div class="h4 text-center mb-4 title">Projects Showcase</div>
+          <div class="projs__container background" data-aos="fade-up">
+            <div class="row">
+              <div class="col-sm-4">
+                <div class="card">
+                  <div class="card-header">
+                    <img
+                      class="card__img"
+                      src="assets/Projects/images/0/1.png"
+                      alt="unsplash random image"
+                    />
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Multi Satellites Catalouge</h5>
+                    <p class="card-text">
+                      Project: Ordering Catalouge - Ordering
+                    </p>
+                    <h5>Tech Stack Used:</h5>
+                    <p>SRS Ordering,Complex Searching, Hybrid blend</p>
+                    <a
+                      href="assets/Projects/project.html?id=Multi,Satellites,Imagery,Catalouge"
+                      target="_blank"
+                      class="btn btn-primary"
+                      >Read More</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="card">
+                  <div class="card-header">
+                    <img
+                      class="card__img"
+                      src="assets/Projects/images/1/1.png"
+                      alt="unsplash random image"
+                    />
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Data As a Service</h5>
+                    <p class="card-text">
+                      Project: WMS, WCS, WPS based data serving
+                    </p>
+                    <h5>Tech Stack Used:</h5>
+                    <p>Openlayers, GIS, WMS / WCS / WPS</p>
+                    <a
+                      href="assets/Projects/project.html?id=Data,As,a,Service"
+                      target="_blank"
+                      class="btn btn-primary"
+                      >Read More</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="card">
+                  <div class="card-header">
+                    <img
+                      class="card__img"
+                      src="assets/Projects/images/2/12.jpg"
+                      alt="unsplash random image"
+                    />
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Food-Hub</h5>
+                    <p class="card-text">
+                      Project: Geovisualization and Advanced GIS including
+                      complex datasets
+                    </p>
+                    <h5>Tech Stack Used:</h5>
+                    <p>Geo-visualization,Complex datasets</p>
+                    <a
+                      href="assets/Projects/project.html?id=Food,Hub"
+                      target="_blank"
+                      class="btn btn-primary"
+                      >Read More</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-4">
+                <div class="card">
+                  <div class="card-header">
+                    <img
+                      class="card__img"
+                      src="assets/Projects/images/3/3.jpg"
+                      alt="unsplash random image"
+                    />
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Omnia Hub</h5>
+                    <p class="card-text">
+                      Project: Mobile based Field Manipulation
+                    </p>
+                    <h5>Tech Stack Used:</h5>
+                    <p>Openlayers,GIS, Mobile Responsiveness</p>
+                    <a
+                      href="assets/Projects/project.html?id=Omnia,Hub"
+                      target="_blank"
+                      class="btn btn-primary"
+                      >Read More</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="card">
+                  <div class="card-header">
+                    <img
+                      class="card__img"
+                      src="assets/Projects/images/4/1.jpg"
+                      alt="unsplash random image"
+                    />
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">NetGen</h5>
+                    <p class="card-text">
+                      Project: Distance, Directions calculation
+                    </p>
+                    <h5>Tech Stack Used:</h5>
+                    <p>Leaflet, Directions, Path breakdown</p>
+                    <a
+                      href="assets/Projects/project.html?id=NetGen"
+                      target="_blank"
+                      class="btn btn-primary"
+                      >Read More</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="card">
+                  <div class="card-header">
+                    <img
+                      class="card__img"
+                      src="assets/Projects/images/5/5.jpg"
+                      alt="unsplash random image"
+                    />
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Australian Data Solutions</h5>
+                    <p class="card-text">Project: A real-estate portal</p>
+                    <h5>Tech Stack Used:</h5>
+                    <p>Dashboard, ReactJs, Mapbox</p>
+                    <a
+                      href="assets/Projects/project.html?id=Australian,Data,Solutions"
+                      target="_blank"
+                      class="btn btn-primary"
+                      >Read More</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-4">
+                <div class="card">
+                  <div class="card-header">
+                    <img
+                      class="card__img"
+                      src="assets/Projects/images/8/0.jpg"
+                      alt="unsplash random image"
+                    />
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Silver Farm</h5>
+                    <p class="card-text">
+                      Project: Evaluation of Agriculture Fields
+                    </p>
+                    <h5>Tech Stack Used:</h5>
+                    <p>Openlayers, Postgresql</p>
+                    <a
+                      href="assets/Projects/project.html?id=Silver,Farm"
+                      target="_blank"
+                      class="btn btn-primary"
+                      >Read More</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="card">
+                  <div class="card-header">
+                    <img
+                      class="card__img"
+                      src="assets/Projects/images/9/0.jpg"
+                      alt="unsplash random image"
+                    />
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Stamp Tool</h5>
+                    <p class="card-text">Project: Telecomm Survey Field App</p>
+                    <h5>Tech Stack Used:</h5>
+                    <p>Openlayers, Postgresql, PHP</p>
+                    <a
+                      href="assets/Projects/project.html?id=Stamp,Tool"
+                      target="_blank"
+                      class="btn btn-primary"
+                      >Read More</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="card">
+                  <div class="card-header">
+                    <img
+                      class="card__img"
+                      src="assets/Projects/images/10/0.jpg"
+                      alt="unsplash random image"
+                    />
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Kine Map</h5>
+                    <p class="card-text">
+                      Project: Belgium's first Therapists Portal
+                    </p>
+                    <h5>Tech Stack Used:</h5>
+                    <p>Openlayers, MySQL, PHP, Postgresql</p>
+                    <a
+                      href="assets/Projects/project.html?id=Kine,Map"
+                      target="_blank"
+                      class="btn btn-primary"
+                      >Read More</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-4">
+                <div class="card">
+                  <div class="card-header">
+                    <img
+                      class="card__img"
+                      src="assets/Projects/images/11/0.jpg"
+                      alt="unsplash random image"
+                    />
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Down Wind Fun</h5>
+                    <p class="card-text">
+                      Project: Downwind routes drawing / catalog
+                    </p>
+                    <h5>Tech Stack Used:</h5>
+                    <p>Openlayers, OL-ext, Mapbox</p>
+                    <a
+                      href="assets/Projects/project.html?id=Down,Wind,Fun"
+                      target="_blank"
+                      class="btn btn-primary"
+                      >Read More</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="card">
+                  <div class="card-header">
+                    <img
+                      class="card__img"
+                      src="assets/Projects/images/12/0.jpg"
+                      alt="unsplash random image"
+                    />
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Elections GIS App</h5>
+                    <p class="card-text">
+                      Project: Desktop GIS app for Elections
+                    </p>
+                    <h5>Tech Stack Used:</h5>
+                    <p>Openlayers, MySQL, PHP, Postgresql</p>
+                    <a
+                      href="assets/Projects/project.html?id=Map,Win,GIS"
+                      target="_blank"
+                      class="btn btn-primary"
+                      >Read More</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="card">
+                  <div class="card-header">
+                    <img
+                      class="card__img"
+                      src="assets/Projects/images/13/0.jpg"
+                      alt="unsplash random image"
+                    />
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Geo One Tech LLC</h5>
+                    <p class="card-text">Project: A US based Tech Company</p>
+                    <h5>Tech Stack Used:</h5>
+                    <p>Wordpress, PHP, MySQL</p>
+                    <a
+                      href="assets/Projects/project.html?id=Geo,One,Tech"
+                      target="_blank"
+                      class="btn btn-primary"
+                      >Read More</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-4">
+                <div class="card">
+                  <div class="card-header">
+                    <img
+                      class="card__img"
+                      src="assets/Projects/images/14/0.jpg"
+                      alt="unsplash random image"
+                    />
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Go Tech Portal</h5>
+                    <p class="card-text">
+                      Project: A GIS based web portal for GeoOneTech LLC
+                    </p>
+                    <h5>Tech Stack Used:</h5>
+                    <p>Postgresql,Geoserver, Openlayers</p>
+                    <a
+                      href="assets/Projects/project.html?id=Go,Tech,Portal"
+                      target="_blank"
+                      class="btn btn-primary"
+                      >Read More</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="card">
+                  <div class="card-header">
+                    <img
+                      class="card__img"
+                      src="assets/Projects/images/15/1.png"
+                      alt="unsplash random image"
+                    />
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Election Comission GIS</h5>
+                    <p class="card-text">
+                      Project: A GIS based desktop app for Election Results
+                    </p>
+                    <h5>Tech Stack Used:</h5>
+                    <p>C#, .Net, ArcEngine</p>
+                    <a
+                      href="assets/Projects/project.html?id=Election,Comission,GIS"
+                      target="_blank"
+                      class="btn btn-primary"
+                      >Read More</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="col-sm-4">
+                <div class="card">
+                  <div class="card-header">
+                    <img
+                      class="card__img"
+                      src="assets/Projects/images/16/0.png"
+                      alt="unsplash random image"
+                    />
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Data Licensing Service</h5>
+                    <p class="card-text">
+                      Project: Geovisualization and Advanced GIS
+                    </p>
+                    <h5>Tech Stack Used:</h5>
+                    <p>Geo-visualization, Complex datasets, Online Web Processing</p>
+                    <a
+                      href="assets/Projects/project.html?id=Data,Licensing,Service"
+                      target="_blank"
+                      class="btn btn-primary"
+                      >Read More</a
+                    >
+                  </div>
+                </div>
+              </div> -->
+              <div class="col-sm-4">
+                <div class="card">
+                  <div class="card-header">
+                    <img
+                      class="card__img"
+                      src="assets/Projects/images/17/2.png"
+                      alt="unsplash random image"
+                    />
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Aks-e-Pakistan</h5>
+                    <p class="card-text">
+                      Project: SRS & Vector Datasets Hub for Pakistan
+                    </p>
+                    <h5>Tech Stack Used:</h5>
+                    <p>Openlayers, Geoserver, Postgresql</p>
+                    <a
+                      href="assets/Projects/project.html?id=Aks,e,Pakistan"
+                      target="_blank"
+                      class="btn btn-primary"
+                      >Read More</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-4">
+                <div class="card">
+                  <div class="card-header">
+                    <img
+                      class="card__img"
+                      src="assets/Projects/images/18/1.png"
+                      alt="unsplash random image"
+                    />
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Punjab Mauza Digitization</h5>
+                    <p class="card-text">
+                      Project: A GIS based web portal for 16 Distircts Mauza
+                    </p>
+                    <h5>Tech Stack Used:</h5>
+                    <p>Postgresql,Geoserver, Openlayers</p>
+                    <a
+                      href="assets/Projects/project.html?id=Punjab,Mauza,Digitization"
+                      target="_blank"
+                      class="btn btn-primary"
+                      >Read More</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="card">
+                  <div class="card-header">
+                    <img
+                      class="card__img"
+                      src="assets/Projects/images/16/0.png"
+                      alt="unsplash random image"
+                    />
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Data Licensing Service</h5>
+                    <p class="card-text">
+                      Project: Geovisualization and Advanced GIS
+                    </p>
+                    <h5>Tech Stack Used:</h5>
+                    <p>
+                      Geo-visualization, Complex datasets, Online Web Processing
+                    </p>
+                    <a
+                      href="assets/Projects/project.html?id=Data,Licensing,Service"
+                      target="_blank"
+                      class="btn btn-primary"
+                      >Read More</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="card">
+                  <div class="card-header">
+                    <img
+                      class="card__img"
+                      src="assets/Projects/images/19/1.png"
+                      alt="unsplash random image"
+                    />
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">SENELECT</h5>
+                    <p class="card-text">
+                      Project: Geovisualization and Election Results
+                    </p>
+                    <h5>Tech Stack Used:</h5>
+                    <p>
+                      Geo-visualization, Geodatabases
+                    </p>
+                    <a
+                      href="assets/Projects/project.html?id=Senelect"
+                      target="_blank"
+                      class="btn btn-primary"
+                      >Read More</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section" id="education">
+            <div class="container cc-education">
+              <div class="h4 text-center mb-4 title">Education</div>
+
+              <div class="card">
+                <div class="row">
+                  <div
+                    class="col-md-3 bg-primary"
+                    data-aos="fade-right"
+                    data-aos-offset="50"
+                    data-aos-duration="500"
+                  >
+                    <div class="card-body cc-education-header">
+                      <p>2020-2023</p>
+                      <div class="h5">MS Degree</div>
+                    </div>
+                  </div>
+                  <div
+                    class="col-md-9"
+                    data-aos="fade-left"
+                    data-aos-offset="50"
+                    data-aos-duration="500"
+                  >
+                    <div class="card-body">
+                      <div class="h5">MS RS & GIS</div>
+                      <p class="category">
+                        Institute of Space Technology, Islamabad
+                      </p>
+                      <h4>CGPA : 3.73 %</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="row">
+                  <div
+                    class="col-md-3 bg-primary"
+                    data-aos="fade-right"
+                    data-aos-offset="50"
+                    data-aos-duration="500"
+                  >
+                    <div class="card-body cc-education-header">
+                      <p>2005-2009</p>
+                      <div class="h5">Bachelor of Science</div>
+                    </div>
+                  </div>
+                  <div
+                    class="col-md-9"
+                    data-aos="fade-left"
+                    data-aos-offset="50"
+                    data-aos-duration="500"
+                  >
+                    <div class="card-body">
+                      <div class="h5">Software Engineering</div>
+                      <p class="category">
+                        University of Engineering & Technology (UET), Taxila
+                      </p>
+                      <h4>Marks Obtained : 81.75 %</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section" id="experience">
+        <div class="container cc-experience">
+          <div class="h4 text-center mb-4 title">Work Experience</div>
+          <div class="card">
+            <div class="row">
+              <div
+                class="col-md-3 bg-primary"
+                data-aos="fade-right"
+                data-aos-offset="50"
+                data-aos-duration="500"
+              >
+                <div class="card-body cc-experience-header">
+                  <p>May 2016 - Current</p>
+                  <div class="h5">
+                    Space & Upper Atmosphere Research Comission (SUPARCO)
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-md-9"
+                data-aos="fade-left"
+                data-aos-offset="50"
+                data-aos-duration="500"
+              >
+                <div class="card-body">
+                  <div class="h5">Manager / Sr. Developer</div>
+                  <li>
+                    Managing developed products serving production,
+                    administering spatial databases, and managing GIS web
+                    services.
+                  </li>
+                  <li>
+                    Creating, managing, and troubleshooting services for maps,
+                    features class, and geoprocessing using server and related
+                    tools
+                  </li>
+                  <li>
+                    Creating user information solutions and analytic solutions
+                    by developing, implementing and maintaining data components
+                    and interfaces
+                  </li>
+                  <li>
+                    Diagnosing, troubleshooting, and resolving the complex
+                    system application issues, and identifying, analyzing, and
+                    fixing bugs and performance issues as needed
+                  </li>
+                  <li>
+                    Assisting the management with GIS strategic planning by
+                    researching and staying abreast of industry trends,
+                    marketplace solutions, and emerging technologies
+                  </li>
+                  <li>
+                    Identifying and troubleshooting the geodatabase issues and
+                    the ability to analyze, design, build, test and implement
+                    solutions.
+                  </li>
+                  <li>
+                    Assisting the management with GIS strategic planning by
+                    researching and staying abreast of industry trends,
+                    marketplace solutions, and emerging technologies
+                  </li>
+                  <li>
+                    Responsible for geodatabase security, integrity,
+                    reliability, high availability and disaster recovery
+                    solutions.
+                  </li>
+                  <li>
+                    Identifying and troubleshooting the geodatabase issues and
+                    the ability to analyze, design, build, test and implement
+                    solutions.
+                  </li>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="row">
+              <div
+                class="col-md-3 bg-primary"
+                data-aos="fade-right"
+                data-aos-offset="50"
+                data-aos-duration="500"
+              >
+                <div class="card-body cc-experience-header">
+                  <p>Nov 2010 - April 2016</p>
+                  <div class="h5">
+                    Space & Upper Atmosphere Research Comission (SUPARCO)
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-md-9"
+                data-aos="fade-left"
+                data-aos-offset="50"
+                data-aos-duration="500"
+              >
+                <div class="card-body">
+                  <div class="h5">Assistant Manager / Developer</div>
+
+                  <li>
+                    Core member of development team responsible for solutions
+                    delivery.
+                  </li>
+                  <li>
+                    Development of techniques & methods for faster & efficient
+                    display of SRS data over web based mapping applications
+                    using open source tools/libraries
+                  </li>
+                  <li>
+                    Generation of Image pyramids, overviews & inventing tiling
+                    mechanisms for handling of large SRS datasets
+                  </li>
+                  <li>
+                    R & D for vertical & horizontal clustering of datastore
+                    (Geoserver) for faster rendering of the tiles
+                  </li>
+                  <li>
+                    Handling of multiple satellites sensor's data across the
+                    region
+                  </li>
+                  <li>
+                    Developed web application for presenting map services on the
+                    webpage using Javascript
+                  </li>
+                  <li>
+                    Developed SRS data Search Tool working as intranet catalouge
+                  </li>
+                  <li>
+                    Used Arcobjects and C# to develop application tools that
+                    were later integrated in ArcMap
+                  </li>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="row">
+              <div
+                class="col-md-3 bg-primary"
+                data-aos="fade-right"
+                data-aos-offset="50"
+                data-aos-duration="500"
+              >
+                <div class="card-body cc-experience-header">
+                  <p>Aug 2009 - Oct 2010</p>
+                  <div class="h5">Tradepoint 360 Inc.</div>
+                </div>
+              </div>
+              <div
+                class="col-md-9"
+                data-aos="fade-left"
+                data-aos-offset="50"
+                data-aos-duration="500"
+              >
+                <div class="card-body">
+                  <div class="h5">Jr. Software Engineer</div>
+                  <li>
+                    Writing out code for submodules of a .Net POS Solution
+                  </li>
+                  <li>Assisting Team with a .Net POS Solution</li>
+                  <li>Debugging & Error testing for the .Net POS Solution</li>
+                  <li>Writing out knowledge base articles</li>
+                  <li>Handling out tickets / issues</li>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="row">
+              <div
+                class="col-md-3 bg-primary"
+                data-aos="fade-right"
+                data-aos-offset="50"
+                data-aos-duration="500"
+              >
+                <div class="card-body cc-experience-header">
+                  <p>May 2016 - Present</p>
+                  <div class="h5">Upwork</div>
+                </div>
+              </div>
+              <div
+                class="col-md-9"
+                data-aos="fade-left"
+                data-aos-offset="50"
+                data-aos-duration="500"
+              >
+                <div class="card-body">
+                  <div class="h5">Web GIS Freelancer</div>
+                  <li>Multi-lingual & domain client base</li>
+                  <li>
+                    Successful delivery of projects built from scratch till
+                    deployment
+                  </li>
+                  <li>Top Rated Freelancer for 6 consectuive years</li>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section" id="githubCalender">
+        <div class="container cc-experience">
+          <div class="h4 text-center mb-4 title">Github Calender</div>
+          <div class="card p-4">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="calendar"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section" id="github">
+        <div class="container cc-experience">
+          <div class="h4 text-center mb-4 title">Github Analytics</div>
+          <div class="card p-4">
+            <div class="row">
+              <div
+                class="col-md-6"
+                data-aos="fade-right"
+                data-aos-offset="50"
+                data-aos-duration="500"
+              >
+                <img
+                  src="https://github-readme-stats.vercel.app/api?username=mumairr&theme=buefy&show_icons=true"
+                  alt=""
+                />
+              </div>
+              <div
+                class="col-md-6"
+                data-aos="fade-left"
+                data-aos-offset="50"
+                data-aos-duration="500"
+              >
+                <img
+                  src="https://github-readme-stats.vercel.app/api/top-langs/?username=mumairr&theme=buefy&layout=compact"
+                  width="100%"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section" id="certifcations">
+        <div class="container cc-experience">
+          <div class="h4 text-center mb-4 title">Certifications</div>
+          <div class="card p-4">
+            <div class="row">
+              <div class="items">
+                <div class="entry">
+                  <p class="name">NCRG</p>
+                  <img
+                    src="assets/Certifications/Android Programming Training.jpg"
+                    alt="Smiling chick"
+                  />
+                  <p class="quote">Android Programming</p>
+                </div>
+                <div class="entry">
+                  <p class="name">Code With Mosh</p>
+                  <img
+                    src="assets/Certifications/Code With Mosh - Mastering React.jpg"
+                    alt="Smiling chick"
+                  />
+                  <p class="quote">"Mastering React"</p>
+                </div>
+                <div class="entry">
+                  <p class="name">Code With Mosh</p>
+                  <img
+                    src="assets/Certifications/Code With Mosh - Ultimate Redux.jpg"
+                    alt="Smiling chick"
+                  />
+                  <p class="quote">"Ultimate Redux"</p>
+                </div>
+                <div class="entry">
+                  <p class="name">Coursera</p>
+                  <img
+                    src="assets/Certifications/Coursera - Front-end Development.png"
+                    alt="Smiling chick"
+                  />
+                  <p class="quote">"Front-end Development with React"</p>
+                </div>
+                <div class="entry">
+                  <p class="name">Coursera</p>
+                  <img
+                    src="assets/Certifications/Coursera-Programming with Javascript.png"
+                    alt="Smiling chick"
+                  />
+                  <p class="quote">"Programming with Javascript"</p>
+                </div>
+                <div class="entry">
+                  <p class="name">BYJU's</p>
+                  <img
+                    src="assets/Certifications/Data Science Foundation.jpg"
+                    alt="Smiling chick"
+                  />
+                  <p class="quote">"Document Image Analysis"</p>
+                </div>
+                <div class="entry">
+                  <p class="name">Certificate</p>
+                  <img
+                    src="assets/Certifications/DB Exhibition.jpg"
+                    alt="Smiling chick"
+                  />
+                  <p class="quote">"Database Exhibition"</p>
+                </div>
+                <div class="entry">
+                  <p class="name">NCRG</p>
+                  <img
+                    src="assets/Certifications/Erdas Imagine Training.jpg"
+                    alt="Smiling chick"
+                  />
+                  <p class="quote">"ERDAS Imagine Training"</p>
+                </div>
+                <div class="entry">
+                  <p class="name">Coursera</p>
+                  <img
+                    src="assets/Certifications/Front-end Development with React.jpg"
+                    alt="Smiling chick"
+                  />
+                  <p class="quote">"Front-end Development"</p>
+                </div>
+                <div class="entry">
+                  <p class="name">Certificate</p>
+                  <img
+                    src="assets/Certifications/IT Security Seminar Certificate.png"
+                    alt="Smiling chick"
+                  />
+                  <p class="quote">"IT Security Seminar"</p>
+                </div>
+                <div class="entry">
+                  <p class="name">PSTD</p>
+                  <img
+                    src="assets/Certifications/Junior Management Course.png"
+                    alt="Smiling chick"
+                  />
+                  <p class="quote">"Junior Management Course"</p>
+                </div>
+                <div class="entry">
+                  <p class="name">LUMS</p>
+                  <img
+                    src="assets/Certifications/Symposium Image Analysis.jpg"
+                    alt="Smiling chick"
+                  />
+                  <p class="quote">"Symposium Image Analysis"</p>
+                </div>
+                <div class="entry">
+                  <p class="name">Certificate</p>
+                  <img
+                    src="assets/Certifications/UET Hostel Certificate.jpg"
+                    alt="Smiling chick"
+                  />
+                  <p class="quote">"UET Hostel"</p>
+                </div>
+                <div class="entry">
+                  <p class="name">SACRED</p>
+                  <img
+                    src="assets/Certifications/UN Workshop.png"
+                    alt="Smiling chick"
+                  />
+                  <p class="quote">"UN Workshop"</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section" id="contact">
+        <div
+          class="cc-contact-information"
+          style="background-image: url('images/img/back.jpg')"
+        >
+          <div class="container">
+            <div class="cc-contact">
+              <div class="row">
+                <div class="col-md-9">
+                  <div class="card mb-0" data-aos="zoom-in">
+                    <div class="h4 text-center title">Contact Me</div>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="card-body">
+                          <form
+                            action="https://formspree.io/f/xrgvabge"
+                            method="POST"
+                          >
+                            <div class="p pb-3">
+                              <strong>Feel free to contact me </strong>
+                            </div>
+                            <div class="row mb-3">
+                              <div class="col">
+                                <div class="input-group">
+                                  <span class="input-group-addon"
+                                    ><i class="fa fa-user-circle"></i
+                                  ></span>
+                                  <input
+                                    class="form-control"
+                                    type="text"
+                                    name="name"
+                                    placeholder="Name"
+                                    required="required"
+                                  />
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row mb-3">
+                              <div class="col">
+                                <div class="input-group">
+                                  <span class="input-group-addon"
+                                    ><i class="fa fa-file-text"></i
+                                  ></span>
+                                  <input
+                                    class="form-control"
+                                    type="text"
+                                    name="Subject"
+                                    placeholder="Subject"
+                                    required="required"
+                                  />
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row mb-3">
+                              <div class="col">
+                                <div class="input-group">
+                                  <span class="input-group-addon"
+                                    ><i class="fa fa-envelope"></i
+                                  ></span>
+                                  <input
+                                    class="form-control"
+                                    type="email"
+                                    name="_replyto"
+                                    placeholder="E-mail"
+                                    required="required"
+                                  />
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row mb-3">
+                              <div class="col">
+                                <div class="form-group">
+                                  <textarea
+                                    class="form-control"
+                                    name="message"
+                                    placeholder="Your Message"
+                                    required="required"
+                                  ></textarea>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col">
+                                <button class="btn btn-primary" type="submit">
+                                  Send
+                                </button>
+                              </div>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="card-body">
+                          <p class="mb-0"><strong>Address </strong></p>
+                          <p class="pb-2">Islamabad, Pakistan-44600</p>
+                          <p class="mb-0"><strong>Phone</strong></p>
+                          <p class="pb-2">+92-321-444-0234</p>
+                          <p class="mb-0"><strong>Email</strong></p>
+                          <p>m_umairr@yahoo.com</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container text-center">
+        <a
+          class="cc-facebook btn btn-link"
+          href="https://www.facebook.com/muhumairr"
+          target="_blank"
+          ><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a
+        ><a
+          class="cc-twitter btn btn-link"
+          href="https://twitter.com/mumairr"
+          target="_blank"
+          ><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a
+        ><a
+          class="cc-instagram btn btn-link"
+          href="https://www.instagram.com/mumairr/"
+          target="_blank"
+          ><i class="fa fa-instagram fa-2x" aria-hidden="true"></i
+        ></a>
+      </div>
+
+      <div class="h4 title text-center">Muhammad Umair</div>
+      <div class="text-center text-muted">
+        <p>&copy; 2023 Muhammad Umair. All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="js/core/jquery.3.2.1.min.js"></script>
+    <script src="js/core/popper.min.js"></script>
+    <script src="js/core/bootstrap.min.js"></script>
+    <script src="js/now-ui-kit.js?v=1.1.0"></script>
+    <script src="js/aos.js"></script>
+    <script src="scripts/main.js"></script>
+    <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+    <script>
+      // GitHubCalendar(".calendar", "mumairr");
+
+      // or enable responsive functionality:
+      GitHubCalendar(".calendar", "mumairr", { responsive: true });
+
+      // Use a proxy
+      // GitHubCalendar(".calendar", "mumairr", {
+      //    proxy (username) {
+      //      return fetch(`https://your-proxy.com/github?user=${username}`)
+      //    }
+      // }).then(r => r.text())
+      (function () {
+        var anim,
+          createStars,
+          ctx,
+          degrees,
+          dotGap,
+          dotRadius,
+          draw,
+          drawBody,
+          drawPlanetGradient,
+          ease,
+          halfHeight,
+          halfWidth,
+          height,
+          likelyShift,
+          mapValueToRange,
+          maxStarSize,
+          maxStarSpeed,
+          orbitRadius,
+          orbitRadiusMultiplier,
+          planetHalo,
+          planetRadius,
+          progress,
+          ratio,
+          reflectPosition,
+          resize,
+          shiftLight,
+          speed,
+          starColor,
+          starFieldHeight,
+          starFieldWidth,
+          starPercent,
+          stars,
+          unlikelyShift,
+          width;
+
+        ratio = function (value) {
+          return value * devicePixelRatio;
+        };
+
+        mapValueToRange = function (value, fromMin, fromMax, toMin, toMax) {
+          return (
+            toMin + ((value - fromMin) / (fromMax - fromMin)) * (toMax - toMin)
+          );
+        };
+
+        degrees = 180;
+
+        planetRadius = ratio(22);
+
+        planetHalo = 2.5;
+
+        dotRadius = ratio(1.5);
+
+        dotGap = ratio(25);
+
+        speed = 0.04;
+
+        maxStarSize = ratio(1.2);
+
+        maxStarSpeed = 0.25;
+
+        starPercent = 0.0002;
+
+        orbitRadiusMultiplier = 2;
+
+        likelyShift = 0.5;
+
+        unlikelyShift = 0.1;
+
+        reflectPosition = 0.6;
+
+        width = 0;
+
+        height = 0;
+
+        halfWidth = 0;
+
+        halfHeight = 0;
+
+        anim = null;
+
+        orbitRadius = 0;
+
+        stars = [];
+
+        starFieldWidth = 0;
+
+        starFieldHeight = 0;
+
+        ctx = c.getContext("2d");
+
+        progress = 0;
+
+        ease = 0;
+
+        draw = function () {
+          var cos,
+            dotRadians,
+            g,
+            i,
+            j,
+            k,
+            len,
+            len1,
+            radians,
+            ref,
+            sin,
+            star,
+            sx,
+            sy,
+            x,
+            y;
+          degrees += speed;
+          if (degrees > 360) {
+            degrees -= 360;
+          }
+          if (progress > 1) {
+            progress = ease = 1;
+          } else if (progress < 1) {
+            progress += 0.01;
+            ease = 1 - Math.pow(1 - progress, 3);
+            ctx.globalAlpha = ease;
+          }
+          ctx.clearRect(0, 0, width, height);
+          radians = degrees * (Math.PI / 180);
+          cos = Math.cos(radians);
+          sin = Math.sin(radians);
+          x = orbitRadius * cos + sin;
+          y = -orbitRadius * sin + cos;
+          for (j = 0, len1 = stars.length; j < len1; j++) {
+            star = stars[j];
+            drawBody(
+              star[0] - starFieldWidth / 2 + star[4] * x,
+              star[1] - starFieldHeight / 2 + star[4] * y,
+              star[2] * ease,
+              star[3]
+            );
+          }
+          len = Math.floor(
+            Math.min((2 * Math.PI * orbitRadius) / (dotRadius * 2 + dotGap))
+          );
+          for (
+            i = k = 0, ref = len;
+            0 <= ref ? k <= ref : k >= ref;
+            i = 0 <= ref ? ++k : --k
+          ) {
+            dotRadians = i * (360 / len) * (Math.PI / 180);
+            drawBody(
+              x + orbitRadius * Math.cos(dotRadians),
+              y + orbitRadius * Math.sin(dotRadians),
+              dotRadius * ease,
+              "#52c2ef"
+            );
+          }
+          ctx.save();
+          ctx.globalAlpha = 1;
+          drawPlanetGradient(planetHalo, planetRadius * ease, 0, 0, [
+            [0, "transparent"],
+            [0.78, "#000"],
+            [1, "#00374e"],
+          ]);
+          ctx.restore();
+          drawPlanetGradient(
+            ease,
+            0,
+            planetRadius * (reflectPosition * ease) * cos,
+            planetRadius * (reflectPosition * ease) * sin,
+            [
+              [0, "#005071"],
+              [0.3, "#0594d1"],
+              [0.6, "#52c2ef"],
+              [1, "#60d0ff"],
+            ]
+          );
+          sx = x + halfWidth;
+          sy = y + halfHeight;
+          g = ctx.createRadialGradient(sx, sy, orbitRadius * 1.2, sx, sy, 0);
+          g.addColorStop(0, "transparent");
+          g.addColorStop(0.5, "rgba(160, 100, 150, 0.25)");
+          g.addColorStop(1, "rgba(197, 217, 255, 0.6)");
+          ctx.rect(0, 0, width, height);
+          ctx.fillStyle = g;
+          ctx.fill();
+          return (anim = requestAnimationFrame(draw));
+        };
+
+        createStars = function () {
+          var i, j, ref, results, size;
+          starFieldWidth = width + orbitRadius * 2 * maxStarSpeed;
+          starFieldHeight = height + orbitRadius * 2 * maxStarSpeed;
+          stars = [];
+          results = [];
+          for (
+            i = j = 0, ref = starFieldWidth * starFieldHeight * starPercent;
+            0 <= ref ? j <= ref : j >= ref;
+            i = 0 <= ref ? ++j : --j
+          ) {
+            size = Math.random();
+            results.push(
+              stars.push([
+                Math.random() * starFieldWidth,
+                Math.random() * starFieldHeight,
+                maxStarSize * size,
+                starColor(size),
+                maxStarSpeed * size,
+              ])
+            );
+          }
+          return results;
+        };
+
+        starColor = function (size) {
+          var b, blueshift, chance, g, r, redshift;
+          if (size > 2 / 3) {
+            redshift = unlikelyShift;
+            blueshift = likelyShift;
+          } else if (size < 1 / 3) {
+            redshift = likelyShift;
+            blueshift = unlikelyShift;
+          } else {
+            redshift = blueshift = 1 / 3;
+          }
+          chance = Math.random();
+          if (chance < redshift) {
+            r = 255;
+            g = b = shiftLight();
+          } else if (chance < redshift + blueshift) {
+            r = g = shiftLight();
+            b = 255;
+          } else {
+            r = g = b = 255;
+          }
+          return "rgba(" + r + "," + g + "," + b + "," + Math.random() + ")";
+        };
+
+        shiftLight = function () {
+          return Math.round(mapValueToRange(Math.random(), 0, 1, 96, 255));
+        };
+
+        drawBody = function (x, y, radius, fill, alpha) {
+          x += halfWidth;
+          y += halfHeight;
+          if (
+            x + radius < 0 ||
+            x - radius > width ||
+            y + radius < 0 ||
+            y - radius > height
+          ) {
+            return;
+          }
+          ctx.beginPath();
+          ctx.arc(x, y, radius, 0, 2 * Math.PI);
+          ctx.fillStyle = fill;
+          return ctx.fill();
+        };
+
+        drawPlanetGradient = function (
+          radiusMultiplier,
+          endCircleRadius,
+          endCircleXAdd,
+          endCircleYSubtract,
+          colorStops
+        ) {
+          var colorStop, gradient, j, len1;
+          gradient = ctx.createRadialGradient(
+            halfWidth,
+            halfHeight,
+            planetRadius * radiusMultiplier,
+            halfWidth + endCircleXAdd,
+            halfHeight - endCircleYSubtract,
+            endCircleRadius
+          );
+          for (j = 0, len1 = colorStops.length; j < len1; j++) {
+            colorStop = colorStops[j];
+            gradient.addColorStop(colorStop[0], colorStop[1]);
+          }
+          return drawBody(0, 0, planetRadius * radiusMultiplier, gradient);
+        };
+
+        resize = function () {
+          width = c.width = ratio(innerWidth);
+          height = c.height = ratio(innerHeight);
+          halfWidth = width / 2;
+          halfHeight = height / 2;
+          orbitRadius =
+            (Math.max(width, height) / 2) * orbitRadiusMultiplier -
+            planetRadius;
+          createStars();
+          cancelAnimationFrame(anim);
+          return draw();
+        };
+
+        resize();
+
+        addEventListener("resize", resize);
+      }).call(this);
+
+      let links = document.querySelector(".main-content a");
+      const cursors = document.querySelector(".cur");
+      document.addEventListener("mousemove", (e) => {
+        let x = e.pageX;
+        let y = e.pageY;
+        cursors.setAttribute(
+          "style",
+          "top: " + (e.pageY - 10) + "px; left: " + (e.pageX - 10) + "px;"
+        );
+      });
+
+      document.addEventListener("click", () => {
+        cursors.classList.add("expand");
+        setTimeout(() => {
+          cursors.classList.remove("expand");
+        }, 500);
+      });
+
+      var mn = $(".main-nav");
+
+      $(window).scroll(function () {
+        if ($(this).scrollTop() > 250) {
+          mn.addClass("main-nav-scrolled");
+        } else {
+          mn.removeClass("main-nav-scrolled");
+        }
+      });
+
+      AOS.init({
+        duration: 1200,
+      });
+    </script>
+  </body>
 </html>
